@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { PokemonDetail } from "@/types/pokemon";
 
 export default async function PokemonDetailPage({ params }: { params: { name: string } }) {
-  const { name } = params;
+  const { name } = await params;
   try {
     const pokemon: PokemonDetail = await getPokemonDetails(name);
 

@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+body {
+    background-image: linear-gradient(to bottom right, #fef9c3, #ffffff, #dbeafe);
+}
+
+.text-pokemon {
+    color: #ffcb00;
+    -webkit-text-stroke: 1px #2c70b7;
+    font-weight: bolder;
+}
